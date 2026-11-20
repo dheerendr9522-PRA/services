@@ -1,0 +1,33 @@
+{
+  "name": "Dheerendra Prajapati Computer & Digital Seva Kendra",
+  "short_name": "DP Digital Seva",
+  "description": "आपकी डिजिटल सेवाएँ, एक ही जगह। 230+ सरकारी व डिजिटल सेवाएँ, कंप्यूटर रिपेयर, बिलिंग व आवेदन ट्रैकिंग।",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6f7fb",
+  "theme_color": "#4f46e5",
+  "lang": "hi",
+  "categories": ["business", "government", "productivity"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "सभी सेवाएँ", "url": "/services" },
+    { "name": "आवेदन ट्रैक करें", "url": "/track" },
+    { "name": "UPI भुगतान", "url": "/pay" },
+    { "name": "एडमिन डैशबोर्ड", "url": "/admin" }
+  ]
+}
